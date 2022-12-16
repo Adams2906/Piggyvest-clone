@@ -1,0 +1,181 @@
+.header{
+    height: 55px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 100;
+
+    background-color: #ffffff;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: rgb(228, 228, 228);
+
+}
+
+.left-section{
+    display: flex;
+    align-items: center;
+}
+
+
+.middle-section{
+    
+    flex: 1;
+    margin-left: 80px;
+    margin-right: 35px;
+    max-width: 500px;
+    display: flex;
+    align-items: center;
+    font-size: 13px;
+    }
+
+    
+    .right-section{
+    
+    width: 300px;
+    margin-right: 30px;
+    display: flex;
+
+    cursor: pointer;
+
+    }
+
+    .piggy-logo{
+        width: 100px;
+        margin-left: 80px;
+    }
+
+    .sign-up{
+        border-color: rgb(12, 24, 37);
+        border-style: solid;
+        color:rgb(12, 24, 37);
+        margin-right: 20px;
+        margin-left: 40px;
+        padding-left: 18px;
+        padding-right: 18px;
+        margin-top: 8px;
+        margin-bottom: 8px;
+        border-radius: 6px;
+        cursor: pointer;
+        font-family: sans-serif;
+        border-width: 1px;
+        background-color: white;
+
+    }
+
+    .sign-up:hover{
+        background-color:rgb(12, 24, 37);
+        color: white;
+    }
+    .create-account{
+        background-color:rgb(12, 24, 37);
+        color: white;
+        padding-left: 18px;
+        padding-right: 18px;
+        margin-top: 8px;
+        margin-bottom: 8px;
+        border-radius: 6px;
+        cursor: pointer;
+        border-style: solid;
+        font-family: sans-serif;
+        border-width: 0;
+
+    }
+
+    .create-account:hover{
+
+    background-color: rgb(15, 15, 241);
+    color: white;
+    border: solid;
+    border-width: 0;
+
+    }
+
+     .stories-button {
+        color: rgb(0, 0, 0);
+        cursor: pointer;
+     }
+     
+     .stories-button:hover{
+        color: blue;
+     }
+
+     .home-style:hover{
+        color: blue;
+     }
+        
+     .home-style{
+        width: 100px; 
+        font-family: sans-serif; 
+        text-align: center;
+        color: black;
+     }
+
+
+     .invest-style, .faq-style, .blog-style{
+        width: 100px; 
+        font-family: sans-serif;
+        text-align: center;
+        color: black;
+        
+     }
+
+    .invest-style:hover{
+        color: blue;
+    }
+
+     .faq-style:hover{
+        color: blue;
+     }
+
+     .blog-style:hover{
+        color:blue
+     }
+
+
+
+
+   .stories-button .tooltips
+   {
+      font-family: Roboto, Arial;
+      position: absolute;
+      background-color: rgb(61, 61, 61);
+      color: white;
+      padding-top: 4px;
+      padding-bottom: 4px;
+      padding-left: 8px;
+      padding-right: 8px;
+      border-radius: 2px;
+     font-size: 12px;
+     bottom: -30px;
+     opacity: 0;
+     transition: opacity 0.15s;
+     pointer-events: none ;
+     white-space: nowrap;
+    
+     
+  }
+  
+  
+  .stories-button:hover .tooltips
+   {
+      opacity: 1;
+  
+  }
+  
+  
+  .stories-button
+    {
+      display: flex;
+      justify-content:center ;
+      align-items: center ;
+      position: relative;
+  }
+  
+  

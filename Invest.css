@@ -1,0 +1,54 @@
+.invest-container{
+    display:flex; 
+    justify-content: space-between; 
+    margin-top: 150px;
+    background-color: rgba(245, 245, 245, 0.363);
+}
+
+.invest-img-grid{
+    display: grid;
+}
+
+.invest-img{
+    width:250px ;
+    margin-left: 250px;
+}
+.invest-text-div{
+    margin-right: 250px;
+}
+
+.invest-returns{
+    color: rgba(153, 16, 233, 0.986);
+    padding-top: 0px; 
+    font-size: 20px;
+    width: 200px; 
+    font-weight: bold;
+    height: 0;
+    font-family: sans-serif;
+    margin-top: 80px;
+    display: block;
+    margin-bottom: 10;
+}
+
+
+.invest-text-access{
+    margin-top:50px;
+    width: 400px ;
+    font-family: sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+}
+
+.text-invest{
+    margin-top: 20px;
+    font-family: sans-serif;
+    width: 400px;
+    color:  rgba(0, 0, 0, 0.527);
+}
+
+.invest-learn{
+    margin-top: 40px;
+    font-family: sans-serif;
+    color: rgba(153, 16, 233, 0.986);
+    font-weight: 500;
+}

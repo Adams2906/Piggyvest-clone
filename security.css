@@ -1,0 +1,51 @@
+                       
+             .security-div{
+                background-color:rgba(245, 245, 245, 0.363);
+                margin-top: 250px;
+                height: 250px;
+                margin-bottom: 150px;
+             }          
+                       
+              
+             .security-container{
+                display: flex; 
+                margin-left: 410px; 
+                justify-content:center; 
+                flex-direction: row;
+                height: 200px; 
+                width: 600px; 
+                padding-top: 40px;
+                align-items: center;
+             }
+
+             .sec-img-div{
+                margin-right: 50px;
+                display: flex;
+             }
+
+             .sec-img{
+                width: 100px;
+             }
+
+             .sec-header-div{
+                margin-right: 0px;
+             }
+
+             .sec-header{
+                text-align: top; 
+                display: block; 
+                font-family: sans-serif; 
+                font-size: 30px;
+             }
+
+             .sec-paragraph{
+                width: 600px;
+                font-family: sans-serif;
+                font-size: 14px; 
+                color: rgba(0, 0, 0, 0.527);
+             }
+
+             .sec-link-learn{
+                color:blue; 
+                font-family: sans-serif;
+             }
