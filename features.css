@@ -1,0 +1,147 @@
+.feature-grid{
+    display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 1.5em;
+}
+
+.grid-one{
+      display: grid; 
+}
+
+.header-save{
+    font-weight:700; 
+    font-size:35px; 
+    font-family:sans-serif;
+    padding-left:60px;
+    padding-top: 20px;
+}
+
+
+.paragraph-save{
+    width:350px; 
+    font-weight:300; 
+    font-size:20px; 
+    font-family:sans-serif;
+    padding-left:60px;
+    margin-bottom: 60px;
+    color: grey;
+}
+
+.button-save{
+margin-left:60px ;
+margin-right:200px;
+margin-bottom: 80px;
+padding-top: 20px;
+padding-bottom: 20px;
+color: white;
+background-color: black;
+border-radius: 6px;
+font-family: sans-serif;
+}
+
+.button-save:hover{
+
+    background-color: rgb(15, 15, 241);
+    color: white;
+    border: solid;
+    border-width: 0;
+}
+
+
+.grid-two, 
+.grid-three,
+.grid-five,
+.grid-six {
+    
+    display: grid;
+
+}
+
+.box-pig{
+    width: 400px;
+    background-color: rgba(245, 245, 245, 0.363);
+    margin-top: 20px;
+    margin-bottom: 10px;
+    right: 20px;
+    margin-left: 20px;
+    border-radius: 20px;
+}
+
+.pig-img{
+    width: 45px;
+    margin-top: 5px;
+    padding-top: 20px;
+    padding-left: 60px;
+    padding-bottom: 0px;
+}
+
+
+.header-fea{
+    padding-left: 60px;
+    padding-top: 15px;
+    font-family: sans-serif;
+    font-size: 20px;
+}
+
+
+.paragraph-fea{
+    padding-left: 60px;
+    padding-top: 15px;
+    font-family: sans-serif;
+    width: 300px;
+    font-size: 18px;
+    color: rgba(0, 0, 0, 0.527);
+}
+
+.paragraph-fea-two{
+    padding-left: 60px;
+    padding-top: 15px;
+    font-family: sans-serif;
+    width: 300px;
+    font-size: 18px;
+    color: rgba(0, 0, 0, 0.527);
+}
+
+
+.paragraph-fea-three{
+    padding-left: 60px;
+    padding-top: 15px;
+    font-family: sans-serif;
+    width: 300px;
+    font-size: 18px;
+    padding-bottom: 30px;
+    color: rgba(0, 0, 0, 0.527);
+}
+
+
+
+.bottom-talk{
+    
+    margin-top: 0px;
+    margin-bottom: 30px;
+    font-size: 20px;
+    display: inline-block;
+    
+}
+
+.target-container{
+    padding: 1.75rem 0; 
+    display: flex; 
+    align-items: center;
+
+}
+
+.target-icon{
+    display: inline-block;
+}
+
+.target-text-container{
+    display: inline-block;
+}
+
+.target-text{
+    margin:0; 
+    text-align:center; 
+    margin-top: 21px;
+    margin-left: 10px;
+    font-family: sans-serif; 
+    font-weight: 500;
+}
