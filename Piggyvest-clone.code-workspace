@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "../../../Downloads/Info/Html-css-course/Piggyvest"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "Piggyvest-clone"
+	}
+}
